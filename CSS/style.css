@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Century Gothic", sans-serif;
+    background-image: url(../img/fondoo.png);
+    background-size: cover;
+    color: rgb(238, 41, 126);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.container{
+    display: flex;
+    max-width: 2000px ;
+    border-radius: 15px;
+    background-size: cover;
+    background-color: rgb(248, 230, 255);
+}
+.userlogin {
+    display: flex;
+    justify-content: center;
+    background-color: #cd0a0a;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(135, 42, 241);
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 28px;
+    font-style: italic;
+    color: rgb(174, 0, 255);
+}
+
+.passwordlogin{
+    background-color: rgba(248, 201, 254, 0.799);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px sollid rgb(156, 234, 16);
+    margin-top: 10%;
+}
+
+.userid{
+    margin-right: 5px;
+    margin-left: 5px;
+
+
+    height: 25px;
+    width: 300px;
+    border: solid 2px #2509c2;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.buttons button{
+    background-color: #fedcff;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+    border: #f833ff, solid;
+}
+
+.buttons img{
+    width: 15px;
+    height: 15px;
+}
