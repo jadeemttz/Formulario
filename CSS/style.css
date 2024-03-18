@@ -66,7 +66,7 @@ body{
     display: flex;
 }
 
-.buttons button{
+#b1{
     background-color: #fedcff;
     border-radius: 15px;
     width: 130px;
